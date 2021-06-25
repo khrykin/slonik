@@ -160,7 +160,7 @@ export type DatabasePoolType = CommonQueryMethodsType & {
  */
 export type DatabaseConnectionType = Partial<DatabasePoolConnectionType & DatabasePoolType>;
 
-export type QueryResultRowColumnType = PrimitiveValueExpressionType;
+export type QueryResultRowColumnType = any;
 
 export type QueryResultRowType = Record<string, QueryResultRowColumnType>;
 
